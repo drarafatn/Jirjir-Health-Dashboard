@@ -4,7 +4,7 @@ import plotly.express as px
 import streamlit as st
 
 st.set_page_config(page_title="Jirjir Health Centre | OPD Intelligence", page_icon="+", layout="wide")
-DATA_PATH = Path(__file__).parent / "data" / "opd_august_2026.csv"
+PATH = Path(__file__).parent / "data" / "opd_august_2026.csv"
 REQUIRED = {"period", "age_group", "sex", "disease", "count", "opd_total", "sex_total"}
 
 @st.cache_data
