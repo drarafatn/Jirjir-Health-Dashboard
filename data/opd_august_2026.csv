@@ -1,15 +1,31 @@
 period,age_group,sex,disease,count,opd_total,sex_total
-August 2026,Under 5,Male,Pneumonia,13,240,120
-August 2026,Under 5,Female,Pneumonia,9,240,120
-August 2026,Under 5,Male,UTI,7,240,120
-August 2026,Under 5,Female,UTI,10,240,120
-August 2026,Under 5,Male,Cough,5,240,120
-August 2026,Under 5,Female,Cough,6,240,120
-August 2026,Over 5,Male,Pneumonia,15,350,180
-August 2026,Over 5,Female,Pneumonia,8,350,170
-August 2026,Over 5,Male,UTI,4,350,180
-August 2026,Over 5,Female,UTI,7,350,170
-August 2026,Over 5,Male,Cough,10,350,180
-August 2026,Over 5,Female,Cough,8,350,170
-August 2026,Under 5,Male,Acute Watery Diarrhoea,3,240,120
-August 2026,Under 5,Female,Acute Watery Diarrhoea,1,240,120
+August 2026,Under 5,Male,Pneumonia,15,240,110
+August 2026,Under 5,Female,Pneumonia,12,240,130
+August 2026,Under 5,Male,Acute Watery Diarrhoea,9,240,110
+August 2026,Under 5,Female,Acute Watery Diarrhoea,8,240,130
+August 2026,Under 5,Male,Cough,8,240,110
+August 2026,Under 5,Female,Cough,9,240,130
+August 2026,Under 5,Male,Unknown Fever,3,240,110
+August 2026,Under 5,Female,Unknown Fever,5,240,130
+August 2026,Under 5,Male,Dysentery,3,240,110
+August 2026,Under 5,Female,Dysentery,5,240,130
+August 2026,Under 5,Male,Skin Disease,4,240,110
+August 2026,Under 5,Female,Skin Disease,3,240,130
+August 2026,Under 5,Male,UTI,0,240,110
+August 2026,Under 5,Female,UTI,0,240,130
+August 2026,Under 5,Male,Trauma/Injury,0,240,110
+August 2026,Under 5,Female,Trauma/Injury,0,240,130
+August 2026,Over 5,Male,Pneumonia,12,230,118
+August 2026,Over 5,Female,Pneumonia,10,230,112
+August 2026,Over 5,Male,Unknown Fever,7,230,118
+August 2026,Over 5,Female,Unknown Fever,9,230,112
+August 2026,Over 5,Male,UTI,5,230,118
+August 2026,Over 5,Female,UTI,10,230,112
+August 2026,Over 5,Male,Skin Disease,6,230,118
+August 2026,Over 5,Female,Skin Disease,8,230,112
+August 2026,Over 5,Male,Cough,7,230,118
+August 2026,Over 5,Female,Cough,4,230,112
+August 2026,Over 5,Male,Trauma/Injury,2,230,118
+August 2026,Over 5,Female,Trauma/Injury,3,230,112
+August 2026,Over 5,Male,Acute Watery Diarrhoea,2,230,118
+August 2026,Over 5,Female,Acute Watery Diarrhoea,1,230,112
