@@ -4,11 +4,11 @@ import plotly.express as px
 import streamlit as st
 
 st.set_page_config(page_title="Jirjir Health Centre | OPD Intelligence", page_icon="+", layout="wide")
-PATH = Path(__file__).parent / "data" / "opd_august_2026.csv"
+PATH = Path(__file__).parent /  / "opd_august_2026.csv"
 REQUIRED = {"period", "age_group", "sex", "disease", "count", "opd_total", "sex_total"}
 
-@st.cache_data
-def load_data(path: str) -> pd.DataFrame:
+@st.cache
+def load(path: str) -> pd.DataFrame:
     df = pd.read_csv(path)
     missing = REQUIRED - set(df.columns)
     if missing:
@@ -22,16 +22,16 @@ def load_data(path: str) -> pd.DataFrame:
         raise ValueError("Sex denominators cannot exceed age-group OPD totals.")
     return df
 
-def enrich(df: pd.DataFrame) -> pd.DataFrame:
+def enrich(df: pd.Frame) -> pd.Frame:
     out = df.copy()
     out["share_of_age_opd_pct"] = out["count"] / out["opd_total"] * 100
     out["within_sex_pct"] = out["count"] / out["sex_total"] * 100
     return out
 
 try:
-    df = enrich(load_data(str(DATA_PATH)))
+    df = enrich(load_data(str(PATH)))
 except Exception as exc:
-    st.error(f"Data validation failed: {exc}")
+    st.error(f" validation failed: {exc}")
     st.stop()
 
 st.title("Jirjir Health Centre")
