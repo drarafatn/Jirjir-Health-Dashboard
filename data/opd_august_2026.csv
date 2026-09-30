@@ -1,0 +1,15 @@
+period,age_group,sex,disease,count,opd_total,sex_total
+August 2026,Under 5,Male,Pneumonia,13,240,120
+August 2026,Under 5,Female,Pneumonia,9,240,120
+August 2026,Under 5,Male,UTI,7,240,120
+August 2026,Under 5,Female,UTI,10,240,120
+August 2026,Under 5,Male,Cough,5,240,120
+August 2026,Under 5,Female,Cough,6,240,120
+August 2026,Over 5,Male,Pneumonia,15,350,180
+August 2026,Over 5,Female,Pneumonia,8,350,170
+August 2026,Over 5,Male,UTI,4,350,180
+August 2026,Over 5,Female,UTI,7,350,170
+August 2026,Over 5,Male,Cough,10,350,180
+August 2026,Over 5,Female,Cough,8,350,170
+August 2026,Under 5,Male,Acute Watery Diarrhoea,3,240,120
+August 2026,Under 5,Female,Acute Watery Diarrhoea,1,240,120
